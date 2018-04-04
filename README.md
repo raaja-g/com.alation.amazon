@@ -1,3 +1,1 @@
-# com.alation.amazon
-Selenium Automation code for Automating amazon search with category Book.
-Simple Page Object model with extent reports implementation.
+Selenium Automation code for Automating amazon search with category Book. Simple Page Object model with extent reports implementation. Please refer the Wiki URL https://github.com/raaja-g/com.alation.amazon/wiki for more details on the Framework.
