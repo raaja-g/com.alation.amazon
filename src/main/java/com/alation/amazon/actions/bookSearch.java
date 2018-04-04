@@ -6,16 +6,22 @@ import com.alation.amazon.scripts.Log;
 
 public class bookSearch {
 
+	// This action would result in user Navigating to Home Page.
+	
 	public void navigateToHomePage() {
 		homePage homePage = new homePage();
 		homePage.navigateToHomePage();
 	}
 
+	// This action would result in user Navigating to Login Page.
+	
 	public void navigateToLoginPage() {
 		homePage homePage = new homePage();
 		homePage.navigateToLoginPage();
 	}
 
+	// This action would perform Search with given category and Name.
+	
 	public void searchBook(String category, String bookName) throws Exception {
 		productSearchPage searchBook = new productSearchPage();
 		searchBook.selectCategory(category);
@@ -23,6 +29,8 @@ public class bookSearch {
 		searchBook.performSearchGo();
 
 	}
+	
+	// This action would get all the necessary information from the First result.
 
 	public Book loadbookInformation() {
 		System.out.println("Starting process to load info for Books :");
@@ -37,6 +45,7 @@ public class bookSearch {
 			Log.info(" BOOK'S BUY PRICE: " + productPage.getfirstBookBuyPrice());
 			Log.info(" BOOK'S RENT PRICE: " + productPage.getfirstBookRentPrice());
 			Log.info(" BOOK'S KINDLE EDITION PRICE: " + productPage.getfirstBookKindlePrice());
+			Log.info(" BOOK'S TOTAL STOCKS LEFT AND COMMENTS: " + productPage.getfirstBookTotalStocksLeft());
 			Log.info("**********************  END OF BOOK  INFORMATION   ********************************");
 			return book;
 		} else {
@@ -48,6 +57,7 @@ public class bookSearch {
 			Log.info(" BOOK'S BUY PRICE: " + productPage.getfirstBookBuyPrice());
 			Log.info(" BOOK'S RENT PRICE: " + productPage.getfirstBookRentPrice());
 			Log.info(" BOOK'S KINDLE EDITION PRICE: " + productPage.getfirstBookKindlePrice());
+			Log.info(" BOOK'S TOTAL STOCKS LEFT AND COMMENTS: " + productPage.getfirstBookTotalStocksLeft());
 			Log.info("**********************  END OF BOOK  INFORMATION   ********************************");
 			return book;
 			
