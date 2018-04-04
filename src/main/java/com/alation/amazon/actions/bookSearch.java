@@ -36,6 +36,9 @@ public class bookSearch {
 		System.out.println("Starting process to load info for Books :");
 		Book book = new Book();
 		productSearchPage productPage = new productSearchPage();
+		
+		// Performed assertion that the category is Books.
+		
 		if (productPage.getconfirmCategory().equals("Books")) {
 			book.bookInformation();
 			Log.info("**********************  B O O K  I N F O R M A T I O N   **************************");
