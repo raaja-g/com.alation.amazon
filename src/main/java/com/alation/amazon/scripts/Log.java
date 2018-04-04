@@ -16,7 +16,6 @@ public class Log
 
 	{
 		Log.info("Start of Test case" + sTestCaseName);
-
 	}
 
 	// This is to print log for the ending of the test case

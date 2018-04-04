@@ -189,5 +189,4 @@ public abstract class browserAction {
 					String.format("Error in sending [%s] to the following element: [%s]", value, by.toString()));
 		}
 	}
-
 }

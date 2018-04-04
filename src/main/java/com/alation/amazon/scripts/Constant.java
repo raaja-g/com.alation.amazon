@@ -20,4 +20,5 @@ public class Constant {
 	public static String getResourceFolder = workingDirectory + File.separator + resourceFolder + File.separator
 			+ "Drivers";
 	public static String extentReportPath = Constant.workingDirectory + File.separator;
+	
 }

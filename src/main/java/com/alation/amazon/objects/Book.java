@@ -32,7 +32,7 @@ public class Book {
 			this.author = bookPage.getfirstBookAuthor();
 			this.edition = bookPage.getfirstBookEditionType();
 			this.rentPrice = bookPage.getfirstBookBuyPrice();
-			this.buyPrice =  bookPage.getfirstBookRentPrice();
+			this.buyPrice = bookPage.getfirstBookRentPrice();
 			this.kindlePrice = bookPage.getfirstBookKindlePrice();
 			this.stocksLeft = bookPage.getfirstBookTotalStocksLeft();
 		} else {
@@ -40,61 +40,61 @@ public class Book {
 
 		}
 	}
-	
+
 	public String getbooktTitle() {
-        return bookTitle;
-    }
+		return bookTitle;
+	}
 
-    public void setProductTitle(String bookTitle) {
-        this.bookTitle = bookTitle;
-    }
+	public void setProductTitle(String bookTitle) {
+		this.bookTitle = bookTitle;
+	}
 
-    public String getAuthor() {
-        return author;
-    }
+	public String getAuthor() {
+		return author;
+	}
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
+	public void setAuthor(String author) {
+		this.author = author;
+	}
 
-    public String getrentPrice() {
-        return rentPrice;
-    }
+	public String getrentPrice() {
+		return rentPrice;
+	}
 
-    public void setrentPrice(String rentPrice) {
-        this.rentPrice = rentPrice;
-    }
+	public void setrentPrice(String rentPrice) {
+		this.rentPrice = rentPrice;
+	}
 
-    public String getEdition() {
-        return edition;
-    }
+	public String getEdition() {
+		return edition;
+	}
 
-    public void setEdition(String edition) {
-        this.edition = edition;
-    }
-    
-    public String getbuyPrice() {
-        return rentPrice;
-    }
+	public void setEdition(String edition) {
+		this.edition = edition;
+	}
 
-    public void setbuyPrice(String buyPrice) {
-        this.buyPrice = buyPrice;
-    }
-    
-    public String getkindlePrice() {
-        return kindlePrice;
-    }
+	public String getbuyPrice() {
+		return rentPrice;
+	}
 
-    public void setkindlePrice(String kindlePrice) {
-        this.kindlePrice = kindlePrice;
-    }
-    
-    public String getstocksLeft() {
-        return stocksLeft;
-    }
+	public void setbuyPrice(String buyPrice) {
+		this.buyPrice = buyPrice;
+	}
 
-    public void setstocksLeft(String stocksLeft) {
-        this.stocksLeft = stocksLeft;
-    }
+	public String getkindlePrice() {
+		return kindlePrice;
+	}
+
+	public void setkindlePrice(String kindlePrice) {
+		this.kindlePrice = kindlePrice;
+	}
+
+	public String getstocksLeft() {
+		return stocksLeft;
+	}
+
+	public void setstocksLeft(String stocksLeft) {
+		this.stocksLeft = stocksLeft;
+	}
 
 }

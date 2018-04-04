@@ -159,5 +159,4 @@ public class Browser {
 			System.out.println("Logger is not initialized");
 		}
 	}
-
 }

@@ -50,6 +50,7 @@ public class bookSearch {
 			Log.info(" BOOK'S KINDLE EDITION PRICE: " + productPage.getfirstBookKindlePrice());
 			Log.info("**********************  END OF BOOK  INFORMATION   ********************************");
 			return book;
+			
 		}
 
 	}

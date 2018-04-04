@@ -29,4 +29,5 @@ public class loginPage extends browserAction {
 	public void performsignIn() {
 		click(signInButton);
 	}
+
 }
