@@ -1,8 +1,5 @@
 package com.alation.amazon.scripts;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +17,8 @@ public abstract class browserAction {
 
 	private static int timeout = 10;
 
+	// getting the driver from Driver Script.
+
 	public browserAction() {
 		driver = driverScript.getDriver();
 	}
@@ -28,6 +27,8 @@ public abstract class browserAction {
 	public WebDriverWait wait;
 	public Actions actions;
 	public Select select;
+
+	// This method would wait for the Element to be Displayed on Screen.
 
 	public void waitUntilElementIsDisplayedOnScreen(By by) {
 		try {
@@ -38,6 +39,8 @@ public abstract class browserAction {
 		}
 	}
 
+	// This method would wait for the Element to be Displayed.
+
 	public void waitForElementToDisplay(By Selector) throws Exception {
 		WebElement element = getElement(Selector);
 		while (!element.isDisplayed()) {
@@ -45,6 +48,9 @@ public abstract class browserAction {
 			Thread.sleep(200);
 		}
 	}
+
+	// This methods helps the user in Navigation.
+	// We pass the URL parameter here to navigate to the desired screen.
 
 	public void navigateToURL(String URL) {
 		try {
@@ -56,6 +62,9 @@ public abstract class browserAction {
 		}
 	}
 
+	// This method gets the current browser title.
+	// We use this value to assert whether we have navigated to the intended Page.
+
 	public String getPageTitle() {
 		try {
 			Log.info("Page Title is : " + driver.getTitle().toString());
@@ -65,6 +74,9 @@ public abstract class browserAction {
 			throw new TestException(String.format("Current page title is:", driver.getTitle().toString()));
 		}
 	}
+
+	// This method gets the current URL of the browser.
+	// We use this value to assert whether we have navigated to the intended URL.
 
 	public String getCurrentURL() {
 		try {
@@ -76,6 +88,9 @@ public abstract class browserAction {
 		}
 	}
 
+	// This method gets the required WebElement.
+	// We use this method to find the WebElement
+
 	public WebElement getElement(By by) {
 		try {
 			return driver.findElement(by);
@@ -86,6 +101,11 @@ public abstract class browserAction {
 		return null;
 
 	}
+
+	// This method gets the texts of the WebElement.
+	// We use this method to get the book information.
+	// We assert whether the element is displayed on the screen before getting the
+	// text.
 
 	public String getElementText(By by) {
 		waitUntilElementIsDisplayedOnScreen(by);
@@ -100,6 +120,9 @@ public abstract class browserAction {
 		return null;
 	}
 
+	// This method is used to select a value from drop down.
+	// Here we are sending 2 By parameters and 1 search criteria
+
 	public void select(By by, By by1, String searchCriteria) throws Exception {
 
 		if (searchCriteria == null) {
@@ -110,29 +133,16 @@ public abstract class browserAction {
 			driver.findElement(by).click();
 			new Select(driver.findElement(by)).selectByVisibleText(searchCriteria);
 			driver.findElement(by1).click();
+			// driver.findElement(By.cssSelector(by1+"'searchCriteria']")).click();
 			Log.info("Successfully selected the search criteria : " + searchCriteria);
 		}
 	}
 
-	public List<String> getDropdownValues(By by) throws Exception {
-
-		waitForElementToDisplay(by);
-		Select dropdown = new Select(getElement(by));
-		List<String> elementList = new ArrayList<String>();
-
-		List<WebElement> allValues = dropdown.getOptions();
-
-		if (allValues == null) {
-			throw new TestException("Some elements in the list do not exist");
-		}
-
-		for (WebElement value : allValues) {
-			if (value.isDisplayed()) {
-				elementList.add(value.getText().trim());
-			}
-		}
-		return elementList;
-	}
+	// This method is used to click a Link or Button.
+	// We Assert whether the element is null. If its null, we again try to find the
+	// element.
+	// Even in cache section, we again try to click the element before logging the
+	// exception.
 
 	public void click(By by) {
 		WebElement element = getElement(by);
@@ -152,6 +162,9 @@ public abstract class browserAction {
 		}
 	}
 
+	// We check for the text area / text box to be Empty
+	// Maximum retries is set to 10. We can change it.
+
 	public void waitForElementTextToBeEmpty(WebElement element) {
 		String text;
 		try {
@@ -168,6 +181,9 @@ public abstract class browserAction {
 
 	}
 
+	// This method clears the text area / text box.
+	// We assert for the Element has no texts.
+
 	public void clearField(WebElement element) {
 		try {
 			element.clear();
@@ -177,6 +193,9 @@ public abstract class browserAction {
 			Log.error(String.format("The following element could not be cleared: [%s]", element.getText()));
 		}
 	}
+
+	// This method enters the desired value in the text box / text area.
+	// We check whether this field is empty before entering a value.
 
 	public void sendKeys(By by, String value) {
 		WebElement element = getElement(by);
