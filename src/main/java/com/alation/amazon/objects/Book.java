@@ -16,11 +16,14 @@ public class Book {
 	public Book() {
 	}
 
+	// Forms a string with all the necessary Book details.
 	public String bookDetails() {
 		return String.format("Book Title:  " + this.bookTitle + "\n" + "Author: " + this.author + "\n" + "Edition:  "
 				+ this.edition + "\n" + "Rent Price:  " + this.rentPrice + "\n" + "Buy Price:  " + this.buyPrice + "\n"
 				+ "kindle Price:  " + this.kindlePrice + "\n" + "Stocks Left:  " + this.stocksLeft);
 	}
+
+	// We use this method to get all the necessary book information.
 
 	public void bookInformation() {
 		productSearchPage bookPage = new productSearchPage();
