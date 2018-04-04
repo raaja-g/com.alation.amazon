@@ -8,7 +8,7 @@ public class Constant {
 	// We need to change the browser Name here
 	// Possible values for browserName are FIREFOX and CHROME
 
-	public static String browserName = "CHROME";
+	public static String browserName = "FIREFOX";
 
 	// Passing the URL information here
 
