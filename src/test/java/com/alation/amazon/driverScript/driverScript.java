@@ -7,30 +7,45 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
+import com.alation.amazon.actions.bookSearch;
+import com.alation.amazon.actions.signIn;
 import com.alation.amazon.scripts.Browser;
 import com.alation.amazon.scripts.Constant;
 import com.alation.amazon.scripts.ExtentManager;
+import com.alation.amazon.scripts.Log;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class driverScript {
 
-	public WebDriver driver = null;
-	protected ExtentReports extent;
+	public static WebDriver driver = null;
+	protected static ExtentReports extent;
 	protected ExtentTest test;
+
+	public static WebDriver getDriver() {
+		if (driver == null) {
+			Browser br = new Browser(Constant.browserName);
+			driver = br.initBrowser();
+		}
+		return driver;
+	}
+
+	public static ExtentReports getExtent() {
+		if (extent == null) {
+			extent = ExtentManager.getReporter(Constant.extentReportPath + "AutomationReport.html");
+		}
+		return extent;
+	}
 
 	@BeforeSuite
 	public void setUpSuite() throws Exception {
 
 		// Initializing Extent Report and setting the Extent Report path
-		extent = ExtentManager.getReporter(Constant.extentReportPath + "AutomationReport.html");
 
-		// Initializing Browser
-		// Browser will initialize the logger
-		Browser br = new Browser(Constant.browserName);
-		driver = br.initBrowser();
-
+		// Initializing the driver
+		driver = driverScript.getDriver();
+		extent = driverScript.getExtent();
 	}
 
 	@AfterSuite
@@ -65,9 +80,27 @@ public class driverScript {
 
 	// Start of the test and assigning the priority to the test case.
 	@Test(priority = 1)
-	public void Logon1() throws Exception {
+	public void searchBook() throws Exception {
 		test = extent.startTest("Verification of Data catalog books in Books Category", "Data Catalog in Books");
-		driver.get(Constant.URL);
+		bookSearch newBookSearch = new bookSearch();
+		newBookSearch.navigateToHomePage();
+		newBookSearch.searchBook("Books", "Data catalog");
+		newBookSearch.loadbookInformation();
+		Log.endTestCase("End of Test case");
+
+	}
+
+	@Test(priority = 2)
+	public void loginAndSearchBook() throws Exception {
+		Log.startTestCase("Login and verification of Data catalog books in Books Category");
+		test = extent.startTest("Login and verification of Data catalog books in Books Category", "Data Catalog in Books");
+		bookSearch newSearch = new bookSearch();
+		newSearch.navigateToHomePage();
+		newSearch.navigateToLoginPage();;
+		signIn newlogin = new signIn();
+		newlogin.performLogin("testamazon123@mailinator.com", "AmazonTest@1");
+		newSearch.searchBook("Books", "Data catalog");
+		newSearch.loadbookInformation();
 
 	}
 
