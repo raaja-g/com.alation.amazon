@@ -84,7 +84,7 @@ public class driverScript {
 		test = extent.startTest("Verification of Data catalog books in Books Category", "Data Catalog in Books");
 		bookSearch newBookSearch = new bookSearch();
 		newBookSearch.navigateToHomePage();
-		newBookSearch.searchBook("Books", "Data catalog");
+		newBookSearch.searchBook("Books", "Data");
 		newBookSearch.loadbookInformation();
 		Log.endTestCase("End of Test case");
 
@@ -93,10 +93,12 @@ public class driverScript {
 	@Test(priority = 2)
 	public void loginAndSearchBook() throws Exception {
 		Log.startTestCase("Login and verification of Data catalog books in Books Category");
-		test = extent.startTest("Login and verification of Data catalog books in Books Category", "Data Catalog in Books");
+		test = extent.startTest("Login and verification of Data catalog books in Books Category",
+				"Data Catalog in Books");
 		bookSearch newSearch = new bookSearch();
 		newSearch.navigateToHomePage();
-		newSearch.navigateToLoginPage();;
+		newSearch.navigateToLoginPage();
+		;
 		signIn newlogin = new signIn();
 		newlogin.performLogin("testamazon123@mailinator.com", "AmazonTest@1");
 		newSearch.searchBook("Books", "Data catalog");

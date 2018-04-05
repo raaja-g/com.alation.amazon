@@ -1,6 +1,6 @@
 package com.alation.amazon.actions;
 
-import com.alation.amazon.page.*;
+import com.alation.amazon.pages.*;
 
 public class signIn {
 

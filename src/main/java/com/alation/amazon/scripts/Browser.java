@@ -21,7 +21,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class Browser {
 
-	private static Logger logger = Logger.getLogger(Browser.class.getName());
+	private Logger logger = Logger.getLogger(Browser.class.getName());
 	private WebDriver driver = null;
 	private String browserName;
 	private String ChromeDriverName = "chromedriver"; // it is "chromedriver.exe for windows"
@@ -124,8 +124,7 @@ public class Browser {
 	/*
 	 * Initializing the Logger
 	 */
-	@SuppressWarnings("unused")
-	public static void initializeLog() {
+	public void initializeLog() {
 		try {
 
 			// Setting up the logger properties

@@ -1,7 +1,7 @@
 package com.alation.amazon.actions;
 
-import com.alation.amazon.page.*;
 import com.alation.amazon.objects.*;
+import com.alation.amazon.pages.*;
 import com.alation.amazon.scripts.Log;
 
 public class bookSearch {

@@ -15,7 +15,7 @@ import com.alation.amazon.driverScript.driverScript;
 
 public abstract class browserAction {
 
-	private static int timeout = 10;
+	private int timeout = 10;
 
 	// getting the driver from Driver Script.
 
@@ -23,7 +23,7 @@ public abstract class browserAction {
 		driver = driverScript.getDriver();
 	}
 
-	public static WebDriver driver;
+	public  WebDriver driver;
 	public WebDriverWait wait;
 	public Actions actions;
 	public Select select;

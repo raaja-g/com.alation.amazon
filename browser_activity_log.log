@@ -415,3 +415,244 @@ Session ID: df17086078f2a696eae7b4dcbf4cd14c
 2018/04/04 22:10:06.574 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
 2018/04/04 22:10:06.626 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
 2018/04/04 22:10:06.626 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:03:57.592 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:04:13.186 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:04:23.815 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:04:23.830 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:04:23.839 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:04:25.469 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:04:29.421 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:04:29.438 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:04:29.448 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:04:32.662 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:04:32.726 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:04:33.824 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:04:33.836 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:04:34.020 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:04:34.184 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:04:34.211 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:04:35.602 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:04:35.676 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:04:35.700 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:05:49.527 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:06:03.602 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:06:13.929 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:06:13.941 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:06:13.948 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:06:15.010 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:06:16.134 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:06:16.683 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:06:16.999 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:06:21.757 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:06:21.812 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:06:21.874 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:06:21.934 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:06:22.009 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:06:22.092 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:06:22.162 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:06:22.164 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:06:22.165 [ INFO] main (Log.java) - End of Test case Execution
+2018/04/05 01:06:22.830 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:06:28.043 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:06:28.056 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:06:28.066 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:06:33.633 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:06:33.862 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:06:35.074 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:06:35.086 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:06:35.300 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:06:35.453 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:06:35.471 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:06:37.228 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:06:37.325 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:06:37.374 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:08:49.134 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:09:01.773 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:09:14.906 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:09:14.918 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:09:14.926 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:09:16.224 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:09:16.481 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:09:16.640 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:09:16.736 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:09:20.331 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:09:20.400 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:09:20.455 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:09:20.537 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:09:20.595 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:09:20.664 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:09:20.737 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:09:20.740 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:09:20.740 [ INFO] main (Log.java) - End of Test case Execution
+2018/04/05 01:09:21.136 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:09:27.044 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:09:27.056 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:09:27.070 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:09:30.511 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:09:30.644 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:09:32.186 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:09:32.193 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:09:32.360 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:09:32.499 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:09:32.525 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:09:33.868 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:09:33.952 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:09:33.980 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:11:02.360 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:11:17.167 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:11:27.893 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:11:27.909 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:11:27.925 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:11:29.801 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:11:31.137 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:11:31.323 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:11:31.413 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:11:37.824 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:11:37.931 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:11:38.023 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:11:38.155 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:11:38.243 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:11:38.313 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:11:38.382 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:11:38.384 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:11:38.385 [ INFO] main (Log.java) - End of Test case Execution
+2018/04/05 01:11:39.111 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:11:42.215 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:11:42.239 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:11:42.255 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:11:47.100 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:11:47.269 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:11:48.636 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:11:48.650 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:11:48.883 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:11:49.037 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:11:49.063 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:11:50.482 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:11:50.571 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:11:50.597 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:11:55.955 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:11:56.071 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:11:56.145 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:11:56.168 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:12:00.536 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:12:00.594 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:12:00.667 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:12:00.723 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:12:00.774 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:12:00.825 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:12:00.887 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:12:00.888 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:12:55.932 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:13:09.235 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:13:19.662 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:13:19.678 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:13:19.691 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:13:20.726 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:13:22.438 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:13:22.589 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:13:22.675 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:13:26.829 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:13:26.880 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:13:26.928 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:13:26.981 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:13:27.033 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:13:27.101 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:13:27.167 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:13:27.169 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:13:27.169 [ INFO] main (Log.java) - End of Test case Execution
+2018/04/05 01:13:28.003 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:13:33.316 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:13:33.328 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:13:33.337 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:13:37.252 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:13:37.316 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:13:38.860 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:13:38.870 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:13:39.010 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:13:39.156 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:13:39.181 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:13:40.427 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:13:40.508 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:13:40.530 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:13:47.009 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:13:47.108 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:13:47.181 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:13:47.204 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:13:50.974 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:13:51.023 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:13:51.125 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:13:51.195 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:13:51.251 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:13:51.329 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:13:51.419 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:13:51.419 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:26:36.307 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:26:50.035 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:27:02.545 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:27:02.562 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:27:02.586 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:27:04.293 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:27:04.678 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:27:04.757 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:27:04.797 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:27:19.040 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:27:24.391 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:27:24.405 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:27:24.415 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:27:28.785 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:27:28.958 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:27:30.727 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:27:30.740 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:27:30.949 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:27:31.101 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:27:31.120 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:27:32.287 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:27:32.375 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:27:32.399 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:27:37.880 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:27:37.985 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:27:38.060 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:27:38.091 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:27:42.463 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:27:42.510 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:27:42.571 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:27:42.628 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:27:42.705 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:27:42.759 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:27:42.839 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:27:42.840 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************
+2018/04/05 01:30:12.787 [ INFO] main (Log.java) - Webdriver path: /Users/rajag/Projects/Amazon/com.alation.amazon/src/main/resources/Drivers/
+2018/04/05 01:30:25.945 [ INFO] main (Browser.java) - Starting Firefox browser... 
+2018/04/05 01:30:39.948 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:30:39.972 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:30:40.187 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:30:41.384 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:30:41.872 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:30:41.978 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:30:42.018 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:30:56.970 [ INFO] main (Log.java) - Start of Test caseLogin and verification of Data catalog books in Books Category
+2018/04/05 01:31:01.633 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:31:01.643 [ INFO] main (Log.java) - Current URL is : https://www.amazon.com/
+2018/04/05 01:31:01.652 [ INFO] main (Log.java) - Successfully Navigated to the Home Page
+2018/04/05 01:31:07.103 [ INFO] main (Log.java) - Navigated Successfully to the URL : https://www.amazon.com/
+2018/04/05 01:31:07.258 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Hello. Sign in
+2018/04/05 01:31:08.304 [ INFO] main (Log.java) - Page Title is : Amazon Sign In
+2018/04/05 01:31:08.314 [ INFO] main (Log.java) - Successfully Navigated to the Login Page
+2018/04/05 01:31:08.521 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:31:08.678 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:31:08.711 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Continue
+2018/04/05 01:31:10.002 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:31:10.094 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:31:10.118 [ INFO] main (Log.java) - Successfully Clicked the Button Element : Sign in
+2018/04/05 01:31:15.691 [ INFO] main (Log.java) - Successfully selected the search criteria : Books
+2018/04/05 01:31:15.821 [ INFO] main (Log.java) - Successfully cleared the texts in the Element : 
+2018/04/05 01:31:15.899 [ INFO] main (Log.java) - Successfully cleared the entered in the Element : 
+2018/04/05 01:31:15.921 [ INFO] main (Log.java) - Successfully Clicked the Button Element : 
+2018/04/05 01:31:20.068 [ INFO] main (Log.java) - **********************  B O O K  I N F O R M A T I O N   **************************
+2018/04/05 01:31:20.133 [ INFO] main (Log.java) -  TITLE OF THE FIRST BOOK : Catalog It!: A Guide to Cataloging School Library Materials, 3rd Edition
+2018/04/05 01:31:20.182 [ INFO] main (Log.java) -  NAME OF THE BOOK'S AUTHOR: Allison G. Kaplan
+2018/04/05 01:31:20.236 [ INFO] main (Log.java) -  TYPE OF BOOK'S EDITION: Paperback
+2018/04/05 01:31:20.293 [ INFO] main (Log.java) -  BOOK'S BUY PRICE: $ 60 00
+2018/04/05 01:31:20.347 [ INFO] main (Log.java) -  BOOK'S RENT PRICE: $ 24 01
+2018/04/05 01:31:20.419 [ INFO] main (Log.java) -  BOOK'S KINDLE EDITION PRICE: $ 60 00
+2018/04/05 01:31:20.419 [ INFO] main (Log.java) - **********************  END OF BOOK  INFORMATION   ********************************

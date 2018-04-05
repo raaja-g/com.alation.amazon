@@ -1,7 +1,8 @@
 package com.alation.amazon.objects;
 
 import org.testng.TestException;
-import com.alation.amazon.page.productSearchPage;
+
+import com.alation.amazon.pages.productSearchPage;
 
 public class Book {
 

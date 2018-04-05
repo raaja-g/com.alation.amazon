@@ -1,4 +1,4 @@
-package com.alation.amazon.page;
+package com.alation.amazon.pages;
 
 import org.openqa.selenium.By;
 
