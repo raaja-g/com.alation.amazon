@@ -84,7 +84,7 @@ public class driverScript {
 		test = extent.startTest("Verification of Data catalog books in Books Category", "Data Catalog in Books");
 		bookSearch newBookSearch = new bookSearch();
 		newBookSearch.navigateToHomePage();
-		newBookSearch.searchBook("Books", "Data");
+		newBookSearch.searchBook("Books", "Data Catalog");
 		newBookSearch.loadbookInformation();
 		Log.endTestCase("End of Test case");
 
@@ -98,11 +98,24 @@ public class driverScript {
 		bookSearch newSearch = new bookSearch();
 		newSearch.navigateToHomePage();
 		newSearch.navigateToLoginPage();
-		;
 		signIn newlogin = new signIn();
 		newlogin.performLogin("testamazon123@mailinator.com", "AmazonTest@1");
 		newSearch.searchBook("Books", "Data catalog");
 		newSearch.loadbookInformation();
+		Log.endTestCase("End of Test case");
+
+	}
+	
+	@Test(priority = 3)
+	public void searchBookWithDifferentCriteria() throws Exception {
+		Log.startTestCase("verification of books in Books Category with Criteria *Data* ");
+		test = extent.startTest("verification of books in Books Category with Criteria *Data* ",
+				"Data in Books");
+		bookSearch newSearch = new bookSearch();
+		newSearch.navigateToHomePage();
+		newSearch.searchBook("Books", "Data");
+		newSearch.loadbookInformation();
+		Log.endTestCase("End of Test case");
 
 	}
 }
